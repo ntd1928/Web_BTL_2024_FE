@@ -1,0 +1,53 @@
+.background{
+    background-color: #b2c0b2;
+    height: 100vh;
+    overflow: auto;
+}
+.background .container{
+    /* width: 400px; */
+    margin: auto;
+    /* border-radius: 5px;
+    background-color: #ffffff; */
+    
+}
+.background .register-container{
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.button_login{
+    background-color: #e74c3c!important; color:#fff!important;
+}
+.button_register{
+    background-color: #e74c3c!important; color:#fff!important;
+}
+
+.custom-input-password{
+    position: relative;
+}
+i.fas {
+    position: absolute;
+    right: 7px;
+    top: 10px;
+}
+.login-button-hover{
+    color: #000084;
+}
+.login-button-hover:hover{
+    cursor: pointer;
+}
+.focusError:focus{
+    border-color: rgb(220,53,69)!important;
+    box-shadow: 0 0 0 0.25rem rgba(220,53,69,.25)!important;
+}
+.focusError:invalid{
+    border-color: rgb(220,53,69);
+    box-shadow: none;
+}
+
+
+/* .background .form-control:focus {
+    border-color: #e74c3c!important;
+    box-shadow: 0 0 0 0.25rem rgba(231, 76, 60,.25)!important;
+} */

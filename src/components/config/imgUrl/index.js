@@ -1,0 +1,1 @@
+export const IMG_URL = 'https://web-btl-2023.onrender.com/assets/images';
